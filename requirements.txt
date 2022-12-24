@@ -1,0 +1,21 @@
+# Pin Werkzeug because it keeps breaking Flask!
+Werkzeug==2.1.2
+
+# Runtime dependencies
+Flask-Cors
+Flask-Talisman
+Flask==2.1.2
+
+# Code quality
+flake8==4.0.1
+
+# Testing dependencies
+nose==1.3.7
+pinocchio==0.4.3
+
+# Code Coverage
+coverage==6.3.2
+codecov==2.1.12
+
+# Utilities
+requests==2.25.1
