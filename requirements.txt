@@ -19,3 +19,5 @@ codecov==2.1.12
 
 # Utilities
 requests==2.25.1
+bs4 == 0.0.1
+selenium == 4.7.2
