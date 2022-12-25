@@ -1,0 +1,16 @@
+1671912007321	geckodriver	INFO	Listening on 127.0.0.1:56857
+1671912009488	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "36117" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileljWa7X"
+Gtk-Message: 17:00:10.105: Failed to load module "canberra-gtk-module"
+Gtk-Message: 17:00:10.118: Failed to load module "canberra-gtk-module"
+1671912027038	geckodriver	INFO	Listening on 127.0.0.1:53975
+1671912027809	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "43009" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiutnn6"
+Gtk-Message: 17:00:28.008: Failed to load module "canberra-gtk-module"
+Gtk-Message: 17:00:28.010: Failed to load module "canberra-gtk-module"
+1671912185516	geckodriver	INFO	Listening on 127.0.0.1:43075
+1671912186165	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "59879" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileU0xHnH"
+Gtk-Message: 17:03:06.323: Failed to load module "canberra-gtk-module"
+Gtk-Message: 17:03:06.325: Failed to load module "canberra-gtk-module"
+1671912227931	geckodriver	INFO	Listening on 127.0.0.1:50969
+1671912228600	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "48035" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1RNvZg"
+Gtk-Message: 17:03:48.748: Failed to load module "canberra-gtk-module"
+Gtk-Message: 17:03:48.750: Failed to load module "canberra-gtk-module"

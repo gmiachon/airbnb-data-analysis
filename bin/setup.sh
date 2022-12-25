@@ -9,7 +9,7 @@ echo "Checking Python Version - this project was developed using version 3.10.6"
 python3 --version
 echo ""
 
-if [ -d "/home/gmiachon/airbnb-scrap/" ];
+if [ -d "/home/$(whoami)/airbnb-scrap/" ];
 then
     echo "Removing previous virtual environment"
     rm -r ~/airbnb-scrap
@@ -19,7 +19,7 @@ echo ""
 echo "Creating a Python virtual environment"
 python3 -m venv ~/airbnb-scrap
 
-if [ -f "requirements.txt" ];
+if [ -f "./requirements.txt" ];
 then
     echo "Activating virtual environment and installing dependencies"
     source ~/airbnb-scrap/bin/activate && python3 -m pip install --upgrade pip wheel
