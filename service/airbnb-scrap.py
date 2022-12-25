@@ -68,3 +68,8 @@ def scrap_main_page(driver, city_name, sleep_time=[3, 4]):
         res.update(main_page_parser(soup))
 
     return res
+
+city = "Sao Paulo"
+res = scrap_main_page(driver, city)
+print(res)
+print(len(res))
