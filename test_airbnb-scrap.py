@@ -49,8 +49,8 @@ class TestAccount(TestCase):
 
     def test_parser_input_type(self):
         """ It should return a TypeError for inputs that are not BeautifulSoup objects """
-        self.assertRaises(TypeError, main_page_parser(1))
-        self.assertRaises(TypeError, main_page_parser('test'))
+        self.assertRaises(TypeError, main_page_parser, 1)
+        self.assertRaises(TypeError, main_page_parser, 'test')
 
     def test_scrapper_return_type(self):
         """ It should return a dictionary whose keys are integers and values are BeautifulSoup objects"""
@@ -68,10 +68,10 @@ class TestAccount(TestCase):
 
     def test_scrapper_input_type(self):
         """ It should return a Type error if input types are different from function specifications """
-        self.assertRaises(TypeError, scrap_main_page(1, "Sao Paulo"))
-        self.assertRaises(TypeError, scrap_main_page(driver, 1))
-        self.assertRaises(TypeError, scrap_main_page(driver, "Sao Paulo", sleep_time=["Hello", "World"]))
-        self.assertRaises(TypeError, scrap_main_page(driver, "Sao Paulo", pages="Sao Paulo"))
+        self.assertRaises(TypeError, scrap_main_page, 1, "Sao Paulo")
+        self.assertRaises(TypeError, scrap_main_page, driver, 1)
+        self.assertRaises(TypeError, scrap_main_page, driver, "Sao Paulo", sleep_time=["Hello", "World"])
+        self.assertRaises(TypeError, scrap_main_page, driver, "Sao Paulo", pages="Sao Paulo")
 
     def test_scrapper_warning(self):
         """ It should return a Warning if the specified number of pages is bigger than the quantity of scrapped pages """
