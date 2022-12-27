@@ -21,3 +21,7 @@ codecov==2.1.12
 requests==2.25.1
 bs4 == 0.0.1
 selenium == 4.7.2
+
+# Database
+ibm_db == 3.1.0
+ibm_db_sa == 0.3.3
