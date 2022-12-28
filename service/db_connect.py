@@ -27,9 +27,3 @@ def connect_ibmdb2():
     except:
         print(f"Unable to connect to database: {ibm_db.conn_errormsg()}")
         return -1
-
-conn = connect_ibmdb2()
-print(type(conn))
-client = ibm_db.client_info(conn)
-print(client.DRIVER_NAME)
-ibm_db.close(conn)
